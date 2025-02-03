@@ -1104,7 +1104,7 @@ function M.colorscheme(variant)
 		vim.cmd("hi clear")
 		vim.cmd("syntax reset")
 	end
-	vim.g.colors_name = "rose-pine-prime"
+	vim.g.colors_name = "rose-pine"
 
 	set_highlights()
 end
